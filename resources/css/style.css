@@ -3,10 +3,22 @@ body {
   text-align: center;
 }
 
+#heading,
+h4 {
+    background-image: url("../images/flatiron.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 h1,
-.nav {
+#nav,
+#footer {
   color: white;
-  background-image: url("../images/flatiron.png");
+}
+
+#nav a:link,
+#nav a:visited {
+  color: white;
 }
 
 h1 {
@@ -14,7 +26,7 @@ h1 {
   font-weight: bold;
 }
 
-.nav {
+#nav {
   font-size: 18px;
 }
 
@@ -28,17 +40,22 @@ h3 {
   font-weight: bold;
 }
 
-p.content {
+#content {
   font-size: 14px;
 }
 
 h4 {
   font-size: 23px;
   font-weight: bold;
-  background-image: url("../images/flatiron.png");
 }
 
-.footer {
+#footer {
   font-size: 11px;
   background-color: dimgray;
+  text-align: left;
+}
+
+#footer a:link,
+#footer a:visited {
+  color: white;
 }
